@@ -1,0 +1,54 @@
+$cell-size: 11px !important;
+
+body {
+  background-image: radial-gradient(ellipse at 50%, #9e2e2e, #220000);
+  color: white;
+}
+
+.navbar {
+  font-family: 'bioRhyme';
+  margin-bottom: 25px;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+span {
+   font-size: 1.25em;
+}
+td {
+  height: $cell-size;
+  width: $cell-size;
+  border: 1px solid #373a3c;
+}
+
+#controls {
+  background-color: #373a3c;
+  width: 520px;
+  height: 45px;
+  margin-left: 125px;
+  div {
+    display: inline;
+    margin-left: 20px;
+  }
+}
+button {
+  margin: 10px 5px;
+  width: 100px;
+}
+#game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#game-board {
+  background-color: black;
+  padding: 100px;
+  height: 590px;
+  width:  800px;
+}
+
+
